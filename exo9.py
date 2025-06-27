@@ -12,9 +12,10 @@ def est_premier(n):
             return False
     return True
 
-
-n = int(input("Entrez un nombre : "))
-if est_premier(n):
-    print(f"{n} est un nombre premier.")
-else:
-    print(f"{n} n'est pas un nombre premier.")
+# condition ci-dessous a été rajouté
+if __name__ == "__main__":
+    n = int(input("Entrez un nombre : "))
+    if est_premier(n):
+        print(f"{n} est un nombre premier.")
+    else:
+        print(f"{n} n'est pas un nombre premier.")
