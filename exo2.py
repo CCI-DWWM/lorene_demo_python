@@ -32,7 +32,7 @@ year = input('saisissez votre année de naissance : ')
 year = int(year) # convertion en int
 age = 2025-year
 
-if year==isdigit:
+if year.isdigit():
     print(f"Bonjour {prenom} {nom}, vous avez {age} ans")
 else:
     print("L'année n'est pas valide")
